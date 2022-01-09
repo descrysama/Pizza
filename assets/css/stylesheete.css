@@ -27,6 +27,12 @@ nav {
     justify-content: center;
 }
 
+#contact {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
 ul li {
     font-size: 20px;
 }
@@ -117,4 +123,22 @@ ul li {
     opacity: 0.2;
 }
 
+#hexagone {
+    min-height: 288px;
+    width: 100vw;
+    background-image: url(/assets/image/hexagone.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hexagone h1 {
+    overflow-y: hidden;
+    font-size: 50px;
+    letter-spacing: 0.5cm;
+    font-weight: 400;
+    color: white;
+    font-style: italic;
+    text-shadow: 3px 5px 8px #000000;
+}
 
