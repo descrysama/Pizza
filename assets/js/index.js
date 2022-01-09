@@ -7,3 +7,13 @@ window.addEventListener("scroll", function() {
         navbarFull.classList.remove('bg-dark');
     }
   });
+
+  window.addEventListener("resize", function() {
+    var elementTarget2 = document.getElementById("ulnav");
+    var width = window.innerWidth;
+    if ( width < 992) {
+        elementTarget2.classList.remove('align-items-center');
+    } else {
+        elementTarget2.classList.add('align-items-center');
+    }
+  });
