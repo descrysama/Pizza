@@ -29,8 +29,11 @@ nav {
 
 #contact {
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 ul li {
@@ -84,6 +87,10 @@ ul li {
     font-size: 20px;
 }
 
+form {
+    width: 40%;
+}
+
 #orderbutton {
     border-radius: 50px;
     border: none;
@@ -116,6 +123,22 @@ ul li {
     transition: 1s all ease;
 }
 
+#sendbutton {
+    border-radius: 10px;
+    border: none;
+    background-color: #FF2727;
+    padding: 10px;
+    width: 150px;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+
+#sendbutton:hover {
+    background-color: #b93030;
+    transition: 1s all ease;
+}
+
 #ustensiles {
     position: absolute;
     z-index: -10;
@@ -142,3 +165,28 @@ ul li {
     text-shadow: 3px 5px 8px #000000;
 }
 
+footer {
+    width: 100vw;
+    height: auto;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-content {
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 70px;
+    text-align: center;
+    color: white;
+}
+.footer-content ul {
+    padding: 0;
+}
+
+.footer-content a:active {
+    color: transparent;
+}
