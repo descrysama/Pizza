@@ -222,6 +222,10 @@ footer {
     padding: 0;
 }
 
+.footer-content h3 {
+    overflow-y: hidden;
+}
+
 .footer-content a:active {
     color: transparent;
 }
