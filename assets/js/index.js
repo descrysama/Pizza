@@ -17,3 +17,5 @@ window.addEventListener("scroll", function() {
         elementTarget2.classList.add('align-items-center');
     }
   });
+
+  
